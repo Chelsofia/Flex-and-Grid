@@ -1,0 +1,111 @@
+*{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.flex-container{
+  
+    /* background-color: purple; */
+    display: flex;
+    border-radius: 20px 0px 0 20px;
+   
+}
+
+.one{
+    height: 450px;
+    min-width: 320px;
+    background-color: hsl(31, 77%, 52%);
+    flex-grow: 1;
+    border-radius: 10px 0 0 10px;
+}
+.two{
+    height: 450px;
+    min-width: 320px;
+    flex-grow: 1;
+    background-color: hsl(184, 100%, 22%);
+   
+}
+.three{
+    height: 450px;
+    min-width: 320px;
+    flex-grow: 1;
+    background-color: hsl(179, 100%, 13%);
+     border-radius: 0 10px 10px 0;
+}
+h1{
+    color:#fff;
+    text-align: center;
+}
+.suvs{
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.sedan{
+    margin-left: 50px;
+     margin-top: 60px;
+}
+.luxury{
+    margin-left: 50px;
+     margin-top: 60px;
+}
+p{
+    font-size: 15px;
+    color: #fff;
+    margin-inline: 50px;
+    padding: 0 10px;
+   
+}
+.btn1{
+    margin: 90px;
+    margin-left: 90px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    color: hsl(31, 77%, 52%);
+    cursor: pointer;
+}
+.btn1:hover{
+   background-color: hsl(31, 77%, 52%);
+   color: #fff;
+   border: 1px transparent solid;
+   border-color: #fff;
+}
+.btn2{
+     margin: 70px;
+    margin-left: 90px;
+     padding: 15px 25px;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    color: hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: hsl(184, 100%, 22%);
+   color: #fff;
+   border: 1px transparent solid;
+   border-color: #fff;
+}
+.btn3{
+     margin: 90px;
+    margin-left: 90px;
+     padding: 15px 25px;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    color: hsl(184, 100%, 13%);
+    cursor: pointer;
+}
+.btn3:hover{
+    background-color: hsl(184, 100%, 13%);
+   color: #fff;
+   border: 1px transparent solid;
+   border-color: #fff;
+}
+@media screen and (max-width:980px) {
+    .flex-container{
+        flex-wrap: wrap;
+    }
+}
