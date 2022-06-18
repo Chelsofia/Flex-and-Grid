@@ -104,6 +104,10 @@ p{
    border: 1px transparent solid;
    border-color: #fff;
 }
+#grid{
+ font-weight: 300;
+ color: red;
+}
 @media screen and (max-width:980px) {
     .flex-container{
         flex-wrap: wrap;
